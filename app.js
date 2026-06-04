@@ -338,3 +338,31 @@ if (typeof renderBundleMatchup !== "undefined") window.renderBundleMatchup = ren
 }).catch(err => {
   console.error('Error cargando datos ASCEND:', err);
 });
+
+
+
+// Mobile app navigation
+(function(){
+  const body = document.body;
+  const toggle = document.getElementById("mobileMenuToggle");
+  const closeBtn = document.getElementById("mobileMenuClose");
+  const overlay = document.getElementById("mobileOverlay");
+
+  function openMenu(){ body.classList.add("mobile-menu-open"); }
+  function closeMenu(){ body.classList.remove("mobile-menu-open"); }
+
+  if(toggle) toggle.addEventListener("click", openMenu);
+  if(closeBtn) closeBtn.addEventListener("click", closeMenu);
+  if(overlay) overlay.addEventListener("click", closeMenu);
+
+  document.addEventListener("click", function(e){
+    const btn = e.target.closest(".navbtn");
+    if(btn && window.innerWidth <= 900){
+      setTimeout(closeMenu, 120);
+    }
+  });
+
+  document.addEventListener("keydown", function(e){
+    if(e.key === "Escape") closeMenu();
+  });
+})();
