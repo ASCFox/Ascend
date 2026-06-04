@@ -1,0 +1,202 @@
+{
+  "teams": [
+    {
+      "name": "Tailwind Hyper Offense",
+      "style": "Agresivo • Snowball • Tempo rápido",
+      "tags": [
+        "🌪️ Tailwind",
+        "⚔️ Hyper Offense",
+        "👑 Snowball"
+      ],
+      "difficulty": "Alta",
+      "id": "ASC-TW-001",
+      "members": [
+        "Whimsicott",
+        "Garchomp",
+        "Kingambit",
+        "Charizard Y",
+        "Floette Flor Eterna",
+        "Basculegion"
+      ],
+      "plan": "Presión ofensiva inmediata basada en velocidad y tempo.",
+      "leads": [
+        "Whimsicott + Charizard Y",
+        "Whimsicott + Garchomp",
+        "Whimsicott + Basculegion"
+      ],
+      "wincon": "Basculegion o Kingambit limpian cuando el rival ya está en rango.",
+      "variants": [
+        "Gengar > Basculegion para más disrupción",
+        "Aerodactyl > Whimsicott contra Farigiraf"
+      ]
+    },
+    {
+      "name": "Balance estándar",
+      "style": "Flexible • Seguro • Consistente",
+      "tags": [
+        "🛡️ Balance",
+        "🔁 Pivot",
+        "⚖️ Consistencia"
+      ],
+      "difficulty": "Media",
+      "id": "ASC-BAL-001",
+      "members": [
+        "Incineroar",
+        "Rotom-Wash",
+        "Garchomp",
+        "Kingambit",
+        "Sinistcha",
+        "Dragonite"
+      ],
+      "plan": "Controla el ritmo con pivoteo y gana por mejores intercambios.",
+      "leads": [
+        "Incineroar + Rotom-Wash",
+        "Incineroar + Garchomp",
+        "Sinistcha + Kingambit"
+      ],
+      "wincon": "Kingambit o Dragonite cierran cuando el rival perdió respuestas.",
+      "variants": [
+        "Floette > Dragonite para presión especial",
+        "Amoonguss > Sinistcha si el meta se vuelve bulky"
+      ]
+    },
+    {
+      "name": "Semi Sun Regional Winner",
+      "style": "Presión especial • Clima • Escalado",
+      "tags": [
+        "☀️ Sun",
+        "🔥 Mega",
+        "👑 Regional"
+      ],
+      "difficulty": "Alta",
+      "id": "ASC-SUN-001",
+      "members": [
+        "Incineroar",
+        "Charizard Y",
+        "Floette Flor Eterna",
+        "Garchomp",
+        "Venusaur",
+        "Sinistcha"
+      ],
+      "plan": "Versión basada en el primer regional: sol, presión especial y Floette con Paz Mental.",
+      "leads": [
+        "Incineroar + Charizard Y",
+        "Charizard Y + Venusaur",
+        "Sinistcha + Floette Flor Eterna"
+      ],
+      "wincon": "Floette con Paz Mental o Charizard Y bajo sol cierran si el rival perdió respuestas.",
+      "variants": [
+        "Volcarona > Venusaur si quieres setup",
+        "Rotom-Wash > Venusaur para más balance"
+      ]
+    },
+    {
+      "name": "Trick Room",
+      "style": "Control • Castigo • Tempo inverso",
+      "tags": [
+        "🌀 Trick Room",
+        "🛡️ Control",
+        "💥 Castigo"
+      ],
+      "difficulty": "Muy Alta",
+      "id": "ASC-TR-001",
+      "members": [
+        "Farigiraf",
+        "Tyranitar",
+        "Kingambit",
+        "Sinistcha",
+        "Incineroar",
+        "Rotom-Wash"
+      ],
+      "plan": "Castiga equipos rápidos; no fuerces TR si no hay posición.",
+      "leads": [
+        "Farigiraf + Sinistcha",
+        "Farigiraf + Tyranitar",
+        "Incineroar + Farigiraf"
+      ],
+      "wincon": "Tyranitar o Kingambit limpian durante turnos finales de TR.",
+      "variants": [
+        "Oranguru > Rotom-Wash para Hard TR",
+        "Hatterene > Tyranitar para presión especial"
+      ]
+    },
+    {
+      "name": "Anti-meta",
+      "style": "Adaptable • Castigo • Counterplay",
+      "tags": [
+        "🎯 Anti-meta",
+        "⚔️ Castigo",
+        "🔁 Pivot"
+      ],
+      "difficulty": "Media-Alta",
+      "id": "ASC-AM-001",
+      "members": [
+        "Tyranitar",
+        "Rotom-Wash",
+        "Kingambit",
+        "Gengar",
+        "Dragonite",
+        "Incineroar"
+      ],
+      "plan": "Niega win conditions comunes: clima, Tailwind, prioridad y equipos lineales.",
+      "leads": [
+        "Tyranitar + Rotom-Wash",
+        "Incineroar + Gengar",
+        "Tyranitar + Kingambit"
+      ],
+      "wincon": "Kingambit o Dragonite limpian tras desgastar checks con arena y pivoteo.",
+      "variants": [
+        "Aerodactyl > Gengar si necesitas Tailwind",
+        "Scizor > Dragonite contra hadas"
+      ]
+    }
+  ],
+  "matchups": [
+    {
+      "name": "Tailwind Hyper Offense",
+      "best": "Equipos lentos, balance sin presión inmediata y rivales que no niegan Viento Afín.",
+      "worst": "Trick Room sólido, Farigiraf, redirección bulky y Tyranitar si gana clima.",
+      "early": "Activa Viento Afín y fuerza presión inmediata; no siempre busques KO turno 1.",
+      "mid": "Reposiciona a Charizard o Kingambit; si el rival gastó respuestas al clima, Charizard vuelve a abrir huecos.",
+      "late": "Basculegion o Kingambit limpian cuando el rival esté en rango.",
+      "errores": "Gastar Tailwind sin presión real, sacrificar Charizard temprano o dejar entrar Trick Room gratis."
+    },
+    {
+      "name": "Balance estándar",
+      "best": "Hyper Offense lineal y equipos que dependen de un solo sweeper.",
+      "worst": "Setup gratis, Semi Sun bien posicionado y Trick Room con doble setter.",
+      "early": "Usa Intimidación, Sorpresa y Voltiocambio para leer el plan rival.",
+      "mid": "Pivotea con Incineroar/Rotom y mantén a Kingambit sano.",
+      "late": "Kingambit o Dragonite cierran cuando el rival perdió respuestas.",
+      "errores": "Jugar demasiado pasivo, quemar Protección sin necesidad o revelar Kingambit demasiado pronto."
+    },
+    {
+      "name": "Semi Sun Regional Winner",
+      "best": "Equipos sin control de clima, débiles a presión especial y que no frenan Paz Mental.",
+      "worst": "Tyranitar, Rock Slide, Trick Room bien colocado y presión fuerte sobre Charizard.",
+      "early": "Establece sol con Charizard y controla tempo con Incineroar.",
+      "mid": "Reposiciona a Floette y busca ventana para Paz Mental; Sinistcha sostiene el campo.",
+      "late": "Floette o Charizard cierran; Garchomp Scarf limpia si el rival quedó debilitado.",
+      "errores": "Forzar Charizard sin asegurar clima, usar Paz Mental bajo presión directa o depender demasiado de Somnífero."
+    },
+    {
+      "name": "Trick Room",
+      "best": "Tailwind, equipos ultra rápidos y HO sin doble presión al setter.",
+      "worst": "Encore, Taunt rápido, doble focus al setter y equipos que gastan turnos de TR.",
+      "early": "No fuerces TR si el rival puede castigarte; primero gana posición con Sorpresa o redirección.",
+      "mid": "Una vez activo TR, cobra KOs; no gastes turnos reposicionando si puedes atacar.",
+      "late": "Kingambit y Tyranitar son los cierres principales.",
+      "errores": "Poner TR sin win condition lista, proteger demasiado dentro de TR o dejar que Whimsicott use Otra Vez."
+    },
+    {
+      "name": "Anti-meta",
+      "best": "Charizard Y, Tailwind frágil, clima y equipos dependientes de prioridad.",
+      "worst": "Balance paciente, respuestas sólidas a arena, Primarina y Garchomp bien posicionado.",
+      "early": "Identifica la win condition rival y niégala; Tyranitar controla clima.",
+      "mid": "Mantén pivoteo y fuerza intercambios favorables; Gengar presiona con daño o Mismo Destino.",
+      "late": "Kingambit o Dragonite limpian cuando los checks estén debilitados.",
+      "errores": "Revelar pronto tu plan, perder Tyranitar antes de ganar clima o sacrificar Gengar sin valor."
+    }
+  ],
+  "metaReport": {}
+}

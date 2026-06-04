@@ -1,0 +1,5001 @@
+{
+  "pokemon": [
+    {
+      "name": "Incineroar",
+      "id": 727,
+      "type": "Fuego / Siniestro",
+      "tier": "S+",
+      "group": "Meta Core",
+      "role": "🔁 Pivot",
+      "ability": "Intimidación",
+      "item": "Baya Zidra",
+      "nature": "Defensa o Def. Especial",
+      "moves": [
+        "Sorpresa",
+        "Última Palabra",
+        "Golpe al Cuello",
+        "Envite Ígneo"
+      ],
+      "evs": "252 PS / 156 Def / 100 Def. Esp",
+      "notes": "Pivot defensivo que controla tempo con Sorpresa, Intimidación y Última Palabra.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/727.png",
+      "speed": 0,
+      "badges": [
+        "🔁 PIVOT"
+      ]
+    },
+    {
+      "name": "Garchomp",
+      "id": 445,
+      "type": "Dragón / Tierra",
+      "tier": "S+",
+      "group": "Meta Core",
+      "role": "⚔️ Presión física",
+      "ability": "Piel Tosca",
+      "item": "Baya Zidra",
+      "nature": "Velocidad",
+      "moves": [
+        "Terremoto",
+        "Avalancha",
+        "Garra Dragón",
+        "Protección"
+      ],
+      "evs": "252 Atq / 4 PS / 252 Vel",
+      "notes": "Presión física constante. Bajo Tailwind amenaza ambos slots y fuerza Protects.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
+      "speed": 0,
+      "badges": [
+        "🔥 MEGA"
+      ]
+    },
+    {
+      "name": "Charizard Y",
+      "id": 6,
+      "type": "Fuego / Volador",
+      "tier": "S+",
+      "group": "Meta Core",
+      "role": "☀️ Clima",
+      "ability": "Sequía al megaevolucionar",
+      "item": "Charizardita Y",
+      "nature": "Velocidad",
+      "moves": [
+        "Onda Ígnea",
+        "Meteorobola",
+        "Rayo Solar",
+        "Protección"
+      ],
+      "evs": "4 PS / 252 Atq. Esp / 252 Vel",
+      "notes": "Centro de los equipos de sol. Entra cuando pueda imponer clima y forzar respuestas.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+      "speed": 0,
+      "badges": [
+        "☀️ CLIMA",
+        "🔥 MEGA"
+      ]
+    },
+    {
+      "name": "Kingambit",
+      "id": 983,
+      "type": "Siniestro / Acero",
+      "tier": "S+",
+      "group": "Meta Core",
+      "role": "👑 Cleaner",
+      "ability": "Competitivo",
+      "item": "Baya Pomaro",
+      "nature": "Ataque",
+      "moves": [
+        "Genufendiente",
+        "Golpe Bajo",
+        "Cabeza de Hierro",
+        "Protección"
+      ],
+      "evs": "252 PS / 252 Atq / 4 Def. Esp",
+      "notes": "Cleaner y castigo a Intimidate. Guárdalo para late game.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/983.png",
+      "speed": 0,
+      "badges": [
+        "👑 WINCON"
+      ]
+    },
+    {
+      "name": "Whimsicott",
+      "id": 547,
+      "type": "Planta / Hada",
+      "tier": "S",
+      "group": "Meta Core",
+      "role": "🌪️ Speed Control",
+      "ability": "Bromista",
+      "item": "Banda Focus",
+      "nature": "Velocidad",
+      "moves": [
+        "Viento Afín",
+        "Otra Vez",
+        "Fuerza Lunar",
+        "Protección"
+      ],
+      "evs": "252 PS / 4 Def / 252 Vel",
+      "notes": "Speed control premium. Otra Vez castiga Trick Room, Protect y turnos pasivos.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/547.png",
+      "speed": 0,
+      "badges": [
+        "🌪️ TW"
+      ]
+    },
+    {
+      "name": "Gengar",
+      "id": 94,
+      "type": "Fantasma / Veneno",
+      "tier": "S",
+      "group": "Meta Core",
+      "role": "🎯 Disrupción",
+      "ability": "Levitación",
+      "item": "Banda Focus",
+      "nature": "Velocidad",
+      "moves": [
+        "Bola Sombra",
+        "Bomba Lodo",
+        "Mismo Destino",
+        "Protección"
+      ],
+      "evs": "4 PS / 252 Atq. Esp / 252 Vel",
+      "notes": "Glass cannon utility. Presiona KOs y obliga decisiones con Mismo Destino.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+      "speed": 0,
+      "badges": [
+        "🔥 MEGA"
+      ]
+    },
+    {
+      "name": "Rotom-Wash",
+      "id": 10009,
+      "type": "Eléctrico / Agua",
+      "tier": "S",
+      "group": "Meta Core",
+      "role": "🔁 Pivot",
+      "ability": "Levitación",
+      "item": "Baya Zidra / Restos",
+      "nature": "Defensa",
+      "moves": [
+        "Voltiocambio",
+        "Hidrobomba",
+        "Fuego Fatuo",
+        "Protección"
+      ],
+      "evs": "252 PS / 156 Def / 100 Def. Esp",
+      "notes": "Pivot defensivo ofensivo. Controla físicos y mantiene momentum.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10009.png",
+      "speed": 0,
+      "badges": [
+        "🔁 PIVOT"
+      ]
+    },
+    {
+      "name": "Floette Flor Eterna",
+      "id": 10061,
+      "type": "Hada",
+      "tier": "S",
+      "group": "Meta Core",
+      "role": "✨ Mega / Win Condition",
+      "ability": "Velo Florido",
+      "item": "Floettita",
+      "nature": "Ataque Especial o bulk",
+      "moves": [
+        "Brillo Mágico",
+        "Fuerza Lunar",
+        "Paz Mental",
+        "Protección"
+      ],
+      "evs": "252 PS / 252 Atq. Esp / 4 Def. Esp",
+      "notes": "Win condition especial del Semi Sun. Paz Mental le permite escalar y cerrar partidas.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10061.png",
+      "speed": 0,
+      "badges": [
+        "🔥 MEGA",
+        "👑 WINCON"
+      ]
+    },
+    {
+      "name": "Sneasler",
+      "id": 903,
+      "type": "Lucha / Veneno",
+      "tier": "S",
+      "group": "Meta Core",
+      "role": "⚔️ Presión física",
+      "ability": "Liviano",
+      "item": "Hierba Blanca",
+      "nature": "Velocidad",
+      "moves": [
+        "A Bocajarro",
+        "Garra Nociva",
+        "Sorpresa",
+        "Protección"
+      ],
+      "evs": "252 Atq / 4 Def / 252 Vel",
+      "notes": "Hyper offense cleaner. Presiona desde turno 1 y castiga equipos lentos.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/903.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Tyranitar",
+      "id": 248,
+      "type": "Roca / Siniestro",
+      "tier": "S",
+      "group": "Meta Core",
+      "role": "☀️ Clima",
+      "ability": "Chorro Arena",
+      "item": "Baya defensiva / Tyranitarita",
+      "nature": "Ataque",
+      "moves": [
+        "Avalancha",
+        "Triturar",
+        "Puño Hielo",
+        "Protección"
+      ],
+      "evs": "252 PS / 252 Atq / 4 Def. Esp",
+      "notes": "Control de clima y bulky offense. Arena rompe Focus Sash y molesta HO.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
+      "speed": 0,
+      "badges": [
+        "☀️ CLIMA",
+        "🔥 MEGA"
+      ]
+    },
+    {
+      "name": "Dragonite",
+      "id": 149,
+      "type": "Dragón / Volador",
+      "tier": "S-",
+      "group": "Meta Core",
+      "role": "👑 Cleaner",
+      "ability": "Compensación",
+      "item": "Baya Zidra",
+      "nature": "Ataque",
+      "moves": [
+        "Velocidad Extrema",
+        "Garra Dragón",
+        "Pataleta",
+        "Protección"
+      ],
+      "evs": "252 PS / 252 Atq / 4 Def",
+      "notes": "Cleaner con prioridad y bulk natural.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+      "speed": 0,
+      "badges": [
+        "👑 WINCON"
+      ]
+    },
+    {
+      "name": "Sinistcha",
+      "id": 1013,
+      "type": "Planta / Fantasma",
+      "tier": "S-",
+      "group": "Meta Core",
+      "role": "🛡️ Soporte bulky",
+      "ability": "Hospitalidad",
+      "item": "Baya Drasi",
+      "nature": "Defensa",
+      "moves": [
+        "Matcha Gotcha",
+        "Polvo Ira",
+        "Espacio Raro",
+        "Protección"
+      ],
+      "evs": "252 PS / 156 Def / 100 Def. Esp",
+      "notes": "Soporte bulky. Hospitalidad y redirección sostienen equipos ofensivos.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1013.png",
+      "speed": 0,
+      "badges": [
+        "🌀 TR"
+      ]
+    },
+    {
+      "name": "Aerodactyl",
+      "id": 142,
+      "type": "Roca / Volador",
+      "tier": "S-",
+      "group": "Pokémon Relevantes",
+      "role": "🌪️ Speed Control",
+      "ability": "Presión",
+      "item": "Banda Focus",
+      "nature": "Velocidad",
+      "moves": [
+        "Viento Afín",
+        "Avalancha",
+        "Mofa",
+        "Protección"
+      ],
+      "evs": "252 Atq / 4 Def / 252 Vel",
+      "notes": "Setter de Tailwind sin prioridad. Excelente contra Farigiraf.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+      "speed": 0,
+      "badges": [
+        "🌪️ TW",
+        "🔥 MEGA"
+      ]
+    },
+    {
+      "name": "Farigiraf",
+      "id": 981,
+      "type": "Normal / Psíquico",
+      "tier": "S-",
+      "group": "Pokémon Relevantes",
+      "role": "🌀 Trick Room",
+      "ability": "Armadura Cola",
+      "item": "Hierba Mental",
+      "nature": "Defensa",
+      "moves": [
+        "Espacio Raro",
+        "Psicorruido",
+        "Brillo Mágico",
+        "Protección"
+      ],
+      "evs": "252 PS / 156 Def / 100 Def. Esp",
+      "notes": "Setter anti-prioridad que niega Sorpresa, Golpe Bajo y Bromista.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/981.png",
+      "speed": 0,
+      "badges": [
+        "🌀 TR"
+      ]
+    },
+    {
+      "name": "Froslass",
+      "id": 478,
+      "type": "Hielo / Fantasma",
+      "tier": "A+",
+      "group": "Pokémon Relevantes",
+      "role": "🎯 Disrupción",
+      "ability": "Cuerpo Maldito",
+      "item": "Banda Focus",
+      "nature": "Velocidad",
+      "moves": [
+        "Viento Hielo",
+        "Mofa",
+        "Mismo Destino",
+        "Bola Sombra"
+      ],
+      "evs": "4 PS / 252 Atq. Esp / 252 Vel",
+      "notes": "Utility de HO. Baja velocidades, molesta setters e intercambia con Mismo Destino.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Dragapult",
+      "id": 887,
+      "type": "Dragón / Fantasma",
+      "tier": "A+",
+      "group": "Pokémon Relevantes",
+      "role": "🌪️ Speed Control",
+      "ability": "Cuerpo Puro",
+      "item": "Dragon Fang / Baya",
+      "nature": "Velocidad",
+      "moves": [
+        "Cometa Draco",
+        "Bola Sombra",
+        "Lanzallamas",
+        "Protección"
+      ],
+      "evs": "4 PS / 252 Atq. Esp / 252 Vel",
+      "notes": "Presión rápida flexible; requiere precisión de posicionamiento.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/887.png",
+      "speed": 0,
+      "badges": [
+        "🌪️ TW"
+      ]
+    },
+    {
+      "name": "Primarina",
+      "id": 730,
+      "type": "Agua / Hada",
+      "tier": "A+",
+      "group": "Pokémon Relevantes",
+      "role": "🔮 Presión especial",
+      "ability": "Voz Fluida",
+      "item": "Mystic Water / Baya Zidra",
+      "nature": "Atq. Esp o bulk",
+      "moves": [
+        "Vozarrón",
+        "Fuerza Lunar",
+        "Hidrobomba",
+        "Protección"
+      ],
+      "evs": "252 PS / 252 Atq. Esp / 4 Def",
+      "notes": "Presión especial bulky contra Garchomp, Tyranitar y físicos.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/730.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Pelipper",
+      "id": 279,
+      "type": "Agua / Volador",
+      "tier": "A+",
+      "group": "Pokémon Relevantes",
+      "role": "☀️ Clima",
+      "ability": "Llovizna",
+      "item": "Banda Focus",
+      "nature": "Velocidad",
+      "moves": [
+        "Vendaval",
+        "Meteorobola",
+        "Viento Afín",
+        "Protección"
+      ],
+      "evs": "4 PS / 252 Atq. Esp / 252 Vel",
+      "notes": "Control de lluvia y velocidad; muy útil en guerras de clima.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/279.png",
+      "speed": 0,
+      "badges": [
+        "🌪️ TW",
+        "☀️ CLIMA"
+      ]
+    },
+    {
+      "name": "Hatterene",
+      "id": 858,
+      "type": "Psíquico / Hada",
+      "tier": "A+",
+      "group": "Pokémon Relevantes",
+      "role": "🌀 Trick Room",
+      "ability": "Espejo Mágico",
+      "item": "Baya defensiva",
+      "nature": "Ataque Especial",
+      "moves": [
+        "Espacio Raro",
+        "Brillo Mágico",
+        "Psíquico",
+        "Protección"
+      ],
+      "evs": "252 PS / 252 Atq. Esp / 4 Def",
+      "notes": "Breaker de Hard TR que castiga utilidad rival.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/858.png",
+      "speed": 0,
+      "badges": [
+        "🌀 TR"
+      ]
+    },
+    {
+      "name": "Mimikyu",
+      "id": 778,
+      "type": "Fantasma / Hada",
+      "tier": "A+",
+      "group": "Pokémon Relevantes",
+      "role": "🌀 Trick Room",
+      "ability": "Disfraz",
+      "item": "Hierba Mental / Baya",
+      "nature": "Ataque",
+      "moves": [
+        "Espacio Raro",
+        "Carantoña",
+        "Sombra Vil",
+        "Protección"
+      ],
+      "evs": "252 PS / 252 Atq / 4 Def",
+      "notes": "Setter flexible; Disfraz le da una ventana única.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png",
+      "speed": 0,
+      "badges": [
+        "🌀 TR"
+      ]
+    },
+    {
+      "name": "Basculegion",
+      "id": 902,
+      "type": "Agua / Fantasma",
+      "tier": "A+",
+      "group": "Pokémon Relevantes",
+      "role": "👑 Cleaner",
+      "ability": "Adaptable",
+      "item": "Banda Focus",
+      "nature": "Velocidad",
+      "moves": [
+        "Hidroariete",
+        "Homenaje Póstumo",
+        "Acua Jet",
+        "Protección"
+      ],
+      "evs": "252 Atq / 4 Def / 252 Vel",
+      "notes": "Cleaner bajo Tailwind. Homenaje Póstumo puede cerrar partidas.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/902.png",
+      "speed": 0,
+      "badges": [
+        "👑 WINCON"
+      ]
+    },
+    {
+      "name": "Hydreigon",
+      "id": 635,
+      "type": "Siniestro / Dragón",
+      "tier": "A",
+      "group": "Pokémon Relevantes",
+      "role": "🔮 Presión especial",
+      "ability": "Levitación",
+      "item": "Dragon Fang / Gafas Negras",
+      "nature": "Velocidad",
+      "moves": [
+        "Cometa Draco",
+        "Pulso Umbrío",
+        "Lanzallamas",
+        "Protección"
+      ],
+      "evs": "4 PS / 252 Atq. Esp / 252 Vel",
+      "notes": "Ofensiva especial flexible, limitada por hadas dominantes.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/635.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Scizor",
+      "id": 212,
+      "type": "Bicho / Acero",
+      "tier": "A",
+      "group": "Pokémon Relevantes",
+      "role": "⚔️ Presión física",
+      "ability": "Experto",
+      "item": "Metal Coat / Baya",
+      "nature": "Ataque",
+      "moves": [
+        "Puño Bala",
+        "Tijera X",
+        "Doble Golpe Aéreo",
+        "Protección"
+      ],
+      "evs": "252 PS / 252 Atq / 4 Def",
+      "notes": "Counter fuerte a hadas y Whimsicott; prioridad de acero molesta a Floette.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
+      "speed": 0,
+      "badges": [
+        "🔥 MEGA"
+      ]
+    },
+    {
+      "name": "Archaludon",
+      "id": 1018,
+      "type": "Acero / Dragón",
+      "tier": "A",
+      "group": "Pokémon Relevantes",
+      "role": "🔮 Presión especial",
+      "ability": "Firmeza / Robustez",
+      "item": "Baya defensiva",
+      "nature": "Atq. Esp o bulk",
+      "moves": [
+        "Foco Resplandor",
+        "Cometa Draco",
+        "Electro Shot",
+        "Protección"
+      ],
+      "evs": "252 PS / 252 Atq. Esp / 4 Def",
+      "notes": "Breaker bulky. Sólido aunque pierde valor sin algunas herramientas clásicas.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1018.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Corviknight",
+      "id": 823,
+      "type": "Volador / Acero",
+      "tier": "A",
+      "group": "Pokémon Relevantes",
+      "role": "🛡️ Soporte bulky",
+      "ability": "Coraza Reflejo",
+      "item": "Restos / Baya",
+      "nature": "Defensa",
+      "moves": [
+        "Pájaro Osado",
+        "Viento Afín",
+        "Respiro",
+        "Protección"
+      ],
+      "evs": "252 PS / 156 Def / 100 Def. Esp",
+      "notes": "Utility bulky estable; no define el meta, pero rara vez es inútil.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/823.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Volcarona",
+      "id": 637,
+      "type": "Bicho / Fuego",
+      "tier": "A",
+      "group": "Pokémon Relevantes",
+      "role": "✨ Mega / Win Condition",
+      "ability": "Cuerpo Llama",
+      "item": "Restos / Baya",
+      "nature": "Atq. Esp",
+      "moves": [
+        "Onda Ígnea",
+        "Zumbido",
+        "Danza Aleteo",
+        "Protección"
+      ],
+      "evs": "252 PS / 252 Atq. Esp / 4 Def",
+      "notes": "Setup wincon especial; puede ganar sola si consigue turno libre.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/637.png",
+      "speed": 0,
+      "badges": [
+        "👑 WINCON"
+      ]
+    },
+    {
+      "name": "Meowscarada",
+      "id": 908,
+      "type": "Planta / Siniestro",
+      "tier": "A",
+      "group": "Pokémon Relevantes",
+      "role": "⚔️ Presión física",
+      "ability": "Mutatipo / Espesura",
+      "item": "Banda Focus / Miracle Seed",
+      "nature": "Velocidad",
+      "moves": [
+        "Truco Floral",
+        "Desarme / cobertura",
+        "Ida y Vuelta",
+        "Protección"
+      ],
+      "evs": "252 Atq / 4 Def / 252 Vel",
+      "notes": "Ofensiva rápida y pivot; frágil pero excelente para castigar equipos lentos.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/908.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Glimmora",
+      "id": 970,
+      "type": "Roca / Veneno",
+      "tier": "A-",
+      "group": "Pokémon Relevantes",
+      "role": "🎯 Disrupción",
+      "ability": "Capa Tóxica",
+      "item": "Banda Focus",
+      "nature": "Atq. Esp",
+      "moves": [
+        "Joya de Luz",
+        "Bomba Lodo",
+        "Giro Mortal",
+        "Protección"
+      ],
+      "evs": "4 PS / 252 Atq. Esp / 252 Vel",
+      "notes": "Anti-meta contra Floette y Charizard.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/970.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Milotic",
+      "id": 350,
+      "type": "Agua",
+      "tier": "A+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Relevante competitivo",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Excadrill",
+      "id": 530,
+      "type": "Tierra / Acero",
+      "tier": "A",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viable fuerte",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Gardevoir",
+      "id": 282,
+      "type": "Psíquico / Hada",
+      "tier": "A",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viable fuerte",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Alakazam",
+      "id": 65,
+      "type": "Psíquico",
+      "tier": "A-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viable con buen matchup",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "id": 59,
+      "type": "Fuego",
+      "tier": "A-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viable con buen matchup",
+      "ability": "Intimidación",
+      "item": "Baya defensiva / Charcoal",
+      "nature": "PS o Defensa",
+      "moves": [
+        "Flare Blitz",
+        "Will-O-Wisp",
+        "Snarl",
+        "Protect"
+      ],
+      "evs": "252 PS / 156 Def / 100 Def. Esp",
+      "notes": "Soporte intimidate; alternativo a Incineroar.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Blastoise",
+      "id": 9,
+      "type": "Agua",
+      "tier": "A-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viable con buen matchup",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Lucario",
+      "id": 448,
+      "type": "Lucha / Acero",
+      "tier": "A-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viable con buen matchup",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Raichu de Alola",
+      "id": 10091,
+      "type": "Eléctrico / Psíquico",
+      "tier": "A-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viable con buen matchup",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10091.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Torkoal",
+      "id": 324,
+      "type": "Fuego",
+      "tier": "A-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viable con buen matchup",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/324.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Aegislash",
+      "id": 681,
+      "type": "Acero / Fantasma",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Armarouge",
+      "id": 936,
+      "type": "Fuego / Psíquico",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/936.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Azumarill",
+      "id": 184,
+      "type": "Agua / Hada",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/184.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Ceruledge",
+      "id": 937,
+      "type": "Fuego / Fantasma",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/937.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Clefable",
+      "id": 36,
+      "type": "Hada",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Conkeldurr",
+      "id": 534,
+      "type": "Lucha",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/534.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Empoleon",
+      "id": 395,
+      "type": "Agua / Acero",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/395.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Gallade",
+      "id": 475,
+      "type": "Psíquico / Lucha",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Garganacl",
+      "id": 934,
+      "type": "Roca",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/934.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Greninja",
+      "id": 658,
+      "type": "Agua / Siniestro",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Gyarados",
+      "id": 130,
+      "type": "Agua / Volador",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Heracross",
+      "id": 214,
+      "type": "Bicho / Lucha",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Infernape",
+      "id": 392,
+      "type": "Fuego / Lucha",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/392.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Jolteon",
+      "id": 135,
+      "type": "Eléctrico",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Kangaskhan",
+      "id": 115,
+      "type": "Normal",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "⚔️ Presión física",
+      "ability": "Foco Interno",
+      "item": "Kangaskhanita / Baya",
+      "nature": "Ataque",
+      "moves": [
+        "Sorpresa",
+        "Doble Filo",
+        "Golpe Bajo",
+        "Protección"
+      ],
+      "evs": "252 PS / 252 Atq / 4 Def",
+      "notes": "Presión física flexible; compite con opciones mejores.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+      "speed": 0,
+      "badges": [
+        "🔥 MEGA"
+      ]
+    },
+    {
+      "name": "Kommo-o",
+      "id": 784,
+      "type": "Dragón / Lucha",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/784.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Meganium",
+      "id": 154,
+      "type": "Planta",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "🛡️ Soporte bulky",
+      "ability": "Espesura",
+      "item": "Restos / Baya",
+      "nature": "Defensa",
+      "moves": [
+        "Gigadrenado",
+        "Reflejo",
+        "Pantalla Luz",
+        "Protección"
+      ],
+      "evs": "252 PS / 156 Def / 100 Def. Esp",
+      "notes": "Soporte bulky que sostiene al equipo, no presiona por daño.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Ninetales de Alola",
+      "id": 10104,
+      "type": "Hielo / Hada",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10104.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Oranguru",
+      "id": 765,
+      "type": "Normal / Psíquico",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "🌀 Trick Room",
+      "ability": "Foco Interno",
+      "item": "Hierba Mental",
+      "nature": "Defensa",
+      "moves": [
+        "Espacio Raro",
+        "Mandato",
+        "Psíquico",
+        "Protección"
+      ],
+      "evs": "252 PS / 156 Def / 100 Def. Esp",
+      "notes": "Soporte de Hard TR; necesario en ese arquetipo, limitado fuera de él.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/765.png",
+      "speed": 0,
+      "badges": [
+        "🌀 TR"
+      ]
+    },
+    {
+      "name": "Palafin",
+      "id": 964,
+      "type": "Agua",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/964.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Quaquaval",
+      "id": 914,
+      "type": "Agua / Lucha",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/914.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Roserade",
+      "id": 407,
+      "type": "Planta / Veneno",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Rotom-Heat",
+      "id": 10008,
+      "type": "Eléctrico / Fuego",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10008.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Samurott de Hisui",
+      "id": 10236,
+      "type": "Agua / Siniestro",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10236.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Serperior",
+      "id": 497,
+      "type": "Planta",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/497.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Skarmory",
+      "id": 227,
+      "type": "Acero / Volador",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Skeledirge",
+      "id": 911,
+      "type": "Fuego / Fantasma",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/911.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Sylveon",
+      "id": 700,
+      "type": "Hada",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Talonflame",
+      "id": 663,
+      "type": "Fuego / Volador",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "🌪️ Speed Control",
+      "ability": "Alas Vendaval",
+      "item": "Banda Focus",
+      "nature": "Velocidad",
+      "moves": [
+        "Viento Afín",
+        "Pájaro Osado",
+        "Mofa",
+        "Protección"
+      ],
+      "evs": "252 Atq / 4 Def / 252 Vel",
+      "notes": "Tailwind con prioridad; funcional aunque Aerodactyl le compite fuerte.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/663.png",
+      "speed": 0,
+      "badges": [
+        "🌪️ TW"
+      ]
+    },
+    {
+      "name": "Toxapex",
+      "id": 748,
+      "type": "Veneno / Agua",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/748.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Tsareena",
+      "id": 763,
+      "type": "Planta",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/763.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Umbreon",
+      "id": 197,
+      "type": "Siniestro",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Vaporeon",
+      "id": 134,
+      "type": "Agua",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Venusaur",
+      "id": 3,
+      "type": "Planta / Veneno",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "☀️ Clima",
+      "ability": "Clorofila",
+      "item": "Banda Focus",
+      "nature": "Velocidad",
+      "moves": [
+        "Somnífero",
+        "Bomba Lodo",
+        "Poder Tierra",
+        "Protección"
+      ],
+      "evs": "4 PS / 252 Atq. Esp / 252 Vel",
+      "notes": "Abusador de sol: fuerte bajo sol, muy inferior fuera de él.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+      "speed": 0,
+      "badges": [
+        "☀️ CLIMA"
+      ]
+    },
+    {
+      "name": "Weavile",
+      "id": 461,
+      "type": "Siniestro / Hielo",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/461.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Zoroark de Hisui",
+      "id": 10239,
+      "type": "Normal / Fantasma",
+      "tier": "B+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional sólido",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10239.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Aggron",
+      "id": 306,
+      "type": "Acero / Roca",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Altaria",
+      "id": 334,
+      "type": "Dragón / Volador",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Ampharos",
+      "id": 181,
+      "type": "Eléctrico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Araquanid",
+      "id": 752,
+      "type": "Agua / Bicho",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/752.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Arcanine de Hisui",
+      "id": 10230,
+      "type": "Fuego / Roca",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10230.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Bellibolt",
+      "id": 939,
+      "type": "Eléctrico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/939.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Camerupt",
+      "id": 323,
+      "type": "Fuego / Tierra",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Chandelure",
+      "id": 609,
+      "type": "Fantasma / Fuego",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Chesnaught",
+      "id": 652,
+      "type": "Planta / Lucha",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Decidueye",
+      "id": 724,
+      "type": "Planta / Fantasma",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/724.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Decidueye de Hisui",
+      "id": 10244,
+      "type": "Planta / Lucha",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10244.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Delphox",
+      "id": 655,
+      "type": "Fuego / Psíquico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Espeon",
+      "id": 196,
+      "type": "Psíquico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Feraligatr",
+      "id": 160,
+      "type": "Agua",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Florges",
+      "id": 671,
+      "type": "Hada",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Gliscor",
+      "id": 472,
+      "type": "Tierra / Volador",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/472.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Goodra",
+      "id": 706,
+      "type": "Dragón",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/706.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Hawlucha",
+      "id": 701,
+      "type": "Lucha / Volador",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Hippowdon",
+      "id": 450,
+      "type": "Tierra",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/450.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Houndoom",
+      "id": 229,
+      "type": "Siniestro / Fuego",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Kingdra",
+      "id": 230,
+      "type": "Agua / Dragón",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/230.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Kleavor",
+      "id": 900,
+      "type": "Bicho / Roca",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/900.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Klefki",
+      "id": 707,
+      "type": "Acero / Hada",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/707.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Krookodile",
+      "id": 553,
+      "type": "Tierra / Siniestro",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/553.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Luxray",
+      "id": 405,
+      "type": "Eléctrico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/405.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Lycanroc Forma Crepuscular",
+      "id": 745,
+      "type": "Roca",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/745.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Mamoswine",
+      "id": 473,
+      "type": "Hielo / Tierra",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/473.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Manectric",
+      "id": 310,
+      "type": "Eléctrico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Maushold",
+      "id": 925,
+      "type": "Normal",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/925.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Meowstic",
+      "id": 678,
+      "type": "Psíquico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/678.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Mudsdale",
+      "id": 750,
+      "type": "Tierra",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/750.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Overqwil",
+      "id": 904,
+      "type": "Siniestro / Veneno",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/904.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Pawmot",
+      "id": 923,
+      "type": "Eléctrico / Lucha",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/923.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Politoed",
+      "id": 186,
+      "type": "Agua",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/186.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Polteageist",
+      "id": 855,
+      "type": "Fantasma",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/855.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Reuniclus",
+      "id": 579,
+      "type": "Psíquico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/579.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Rhyperior",
+      "id": 464,
+      "type": "Tierra / Roca",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/464.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Rotom",
+      "id": 479,
+      "type": "Eléctrico / Fantasma",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/479.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Rotom-Mow",
+      "id": 10012,
+      "type": "Eléctrico / Planta",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10012.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Salazzle",
+      "id": 758,
+      "type": "Veneno / Fuego",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/758.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Samurott",
+      "id": 503,
+      "type": "Agua",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/503.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Sharpedo",
+      "id": 319,
+      "type": "Agua / Siniestro",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Slowbro",
+      "id": 80,
+      "type": "Agua / Psíquico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Slowbro de Galar",
+      "id": 10165,
+      "type": "Veneno / Psíquico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10165.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Snorlax",
+      "id": 143,
+      "type": "Normal",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Spiritomb",
+      "id": 442,
+      "type": "Fantasma / Siniestro",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/442.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Starmie",
+      "id": 121,
+      "type": "Agua / Psíquico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Steelix",
+      "id": 208,
+      "type": "Acero / Tierra",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Tauros de Paldea",
+      "id": 10250,
+      "type": "Lucha",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10250.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Tinkaton",
+      "id": 959,
+      "type": "Hada / Acero",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/959.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Typhlosion de Hisui",
+      "id": 10233,
+      "type": "Fuego / Fantasma",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10233.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Tyrantrum",
+      "id": 697,
+      "type": "Roca / Dragón",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/697.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Wyrdeer",
+      "id": 899,
+      "type": "Normal / Psíquico",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/899.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Zoroark",
+      "id": 571,
+      "type": "Siniestro",
+      "tier": "B",
+      "group": "Pokémon Reglamentarios",
+      "role": "Situacional",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/571.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Abomasnow",
+      "id": 460,
+      "type": "Planta / Hielo",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Absol",
+      "id": 359,
+      "type": "Siniestro",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Cofagrigus",
+      "id": 563,
+      "type": "Fantasma",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/563.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Emboar",
+      "id": 500,
+      "type": "Fuego / Lucha",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Flareon",
+      "id": 136,
+      "type": "Fuego",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Forretress",
+      "id": 205,
+      "type": "Bicho / Acero",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/205.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Glaceon",
+      "id": 471,
+      "type": "Hielo",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Glalie",
+      "id": 362,
+      "type": "Hielo",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Golurk",
+      "id": 623,
+      "type": "Tierra / Fantasma",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/623.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Heliolisk",
+      "id": 695,
+      "type": "Eléctrico / Normal",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/695.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Leafeon",
+      "id": 470,
+      "type": "Planta",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Lycanroc Forma Diurna",
+      "id": 745,
+      "type": "Roca",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/745.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Lycanroc Forma Nocturna",
+      "id": 745,
+      "type": "Roca",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/745.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Machamp",
+      "id": 68,
+      "type": "Lucha",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Noivern",
+      "id": 715,
+      "type": "Volador / Dragón",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Pangoro",
+      "id": 675,
+      "type": "Lucha / Siniestro",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/675.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Passimian",
+      "id": 766,
+      "type": "Lucha",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/766.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Qwilfish de Hisui",
+      "id": 10234,
+      "type": "Siniestro / Veneno",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10234.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Rotom-Frost",
+      "id": 10010,
+      "type": "Eléctrico / Hielo",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10010.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Torterra",
+      "id": 389,
+      "type": "Planta / Tierra",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/389.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Toxicroak",
+      "id": 454,
+      "type": "Veneno / Lucha",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/454.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Trevenant",
+      "id": 709,
+      "type": "Fantasma / Planta",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Typhlosion",
+      "id": 157,
+      "type": "Fuego",
+      "tier": "B-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Nicho específico",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Appletun",
+      "id": 842,
+      "type": "Planta / Dragón",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/842.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Arbok",
+      "id": 24,
+      "type": "Veneno",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Aromatisse",
+      "id": 683,
+      "type": "Hada",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/683.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Beedrill",
+      "id": 15,
+      "type": "Bicho / Veneno",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Brambleghast",
+      "id": 947,
+      "type": "Planta / Fantasma",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/947.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Clawitzer",
+      "id": 693,
+      "type": "Agua",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/693.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Crabominable",
+      "id": 740,
+      "type": "Lucha / Hielo",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/740.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Drampa",
+      "id": 780,
+      "type": "Normal / Dragón",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Flapple",
+      "id": 841,
+      "type": "Planta / Dragón",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/841.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Gogoat",
+      "id": 673,
+      "type": "Planta",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/673.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Gourgeist",
+      "id": 711,
+      "type": "Fantasma / Planta",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Morpeko",
+      "id": 877,
+      "type": "Eléctrico / Siniestro",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/877.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Mr. Rime",
+      "id": 866,
+      "type": "Hielo / Psíquico",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/866.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Ninetales",
+      "id": 38,
+      "type": "Fuego",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Orthworm",
+      "id": 968,
+      "type": "Acero",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/968.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Pidgeot",
+      "id": 18,
+      "type": "Normal / Volador",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Pinsir",
+      "id": 127,
+      "type": "Bicho",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Rabsca",
+      "id": 954,
+      "type": "Bicho / Psíquico",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/954.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Rotom-Fan",
+      "id": 10011,
+      "type": "Eléctrico / Volador",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10011.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Runerigus",
+      "id": 867,
+      "type": "Tierra / Fantasma",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/867.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Sandaconda",
+      "id": 844,
+      "type": "Tierra",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/844.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Slurpuff",
+      "id": 685,
+      "type": "Hada",
+      "tier": "C+",
+      "group": "Pokémon Reglamentarios",
+      "role": "Baja prioridad",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/685.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Alcremie",
+      "id": 869,
+      "type": "Hada",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/869.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Audino",
+      "id": 531,
+      "type": "Normal",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Aurorus",
+      "id": 699,
+      "type": "Roca / Hielo",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/699.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Avalugg",
+      "id": 713,
+      "type": "Hielo",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Avalugg de Hisui",
+      "id": 10243,
+      "type": "Hielo / Roca",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10243.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Bastiodon",
+      "id": 411,
+      "type": "Roca / Acero",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/411.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Beartic",
+      "id": 614,
+      "type": "Hielo",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/614.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Dedenne",
+      "id": 702,
+      "type": "Eléctrico / Hada",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/702.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Diggersby",
+      "id": 660,
+      "type": "Normal / Tierra",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/660.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Ditto",
+      "id": 132,
+      "type": "Normal",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Emolga",
+      "id": 587,
+      "type": "Eléctrico / Volador",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/587.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Furfrou",
+      "id": 676,
+      "type": "Normal",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Garbodor",
+      "id": 569,
+      "type": "Veneno",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/569.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Kecleon",
+      "id": 352,
+      "type": "Normal",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/352.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Liepard",
+      "id": 510,
+      "type": "Siniestro",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/510.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Lopunny",
+      "id": 428,
+      "type": "Normal",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Rampardos",
+      "id": 409,
+      "type": "Roca",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/409.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Simipour",
+      "id": 516,
+      "type": "Agua",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/516.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Simisage",
+      "id": 512,
+      "type": "Planta",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/512.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Simisear",
+      "id": 514,
+      "type": "Fuego",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/514.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Stunfisk",
+      "id": 618,
+      "type": "Tierra / Eléctrico",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Stunfisk de Galar",
+      "id": 10180,
+      "type": "Tierra / Acero",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10180.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Toucannon",
+      "id": 733,
+      "type": "Normal / Volador",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/733.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Vanilluxe",
+      "id": 584,
+      "type": "Hielo",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/584.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Victreebel",
+      "id": 71,
+      "type": "Planta / Veneno",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Vivillon",
+      "id": 666,
+      "type": "Bicho / Volador",
+      "tier": "C",
+      "group": "Pokémon Reglamentarios",
+      "role": "Viabilidad limitada",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Medicham",
+      "id": 308,
+      "type": "Lucha / Psíquico",
+      "tier": "C-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Débil competitivamente",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Pikachu",
+      "id": 25,
+      "type": "Eléctrico",
+      "tier": "C-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Débil competitivamente",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Raichu",
+      "id": 26,
+      "type": "Eléctrico",
+      "tier": "C-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Débil competitivamente",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Tauros",
+      "id": 128,
+      "type": "Normal",
+      "tier": "C-",
+      "group": "Pokémon Reglamentarios",
+      "role": "Débil competitivamente",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Ariados",
+      "id": 168,
+      "type": "Bicho / Veneno",
+      "tier": "D",
+      "group": "Pokémon Reglamentarios",
+      "role": "Sin razón competitiva clara",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Castform",
+      "id": 351,
+      "type": "Normal",
+      "tier": "D",
+      "group": "Pokémon Reglamentarios",
+      "role": "Sin razón competitiva clara",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/351.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Chimecho",
+      "id": 358,
+      "type": "Psíquico",
+      "tier": "D",
+      "group": "Pokémon Reglamentarios",
+      "role": "Sin razón competitiva clara",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/358.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    },
+    {
+      "name": "Watchog",
+      "id": 505,
+      "type": "Normal",
+      "tier": "D",
+      "group": "Pokémon Reglamentarios",
+      "role": "Sin razón competitiva clara",
+      "ability": "Habilidad recomendada por confirmar",
+      "item": "Baya defensiva / item legal según rol",
+      "nature": "Mejora recomendada según rol",
+      "moves": [
+        "STAB principal",
+        "Cobertura / utilidad",
+        "Protect",
+        "Movimiento flexible"
+      ],
+      "evs": "252 PS / 252 stat principal / 4 defensa",
+      "notes": "Build base ASCEND pendiente de afinación fina; legalidad de movimientos y objetos debe confirmarse antes de publicar ID.",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png",
+      "speed": 0,
+      "badges": [
+        "⚡ META"
+      ]
+    }
+  ],
+  "metaCoreNames": [
+    "Incineroar",
+    "Garchomp",
+    "Charizard Y",
+    "Kingambit",
+    "Whimsicott",
+    "Gengar",
+    "Rotom-Wash",
+    "Floette Flor Eterna",
+    "Sneasler",
+    "Tyranitar",
+    "Dragonite",
+    "Sinistcha"
+  ],
+  "relevantNames": [
+    "Aerodactyl",
+    "Farigiraf",
+    "Froslass",
+    "Dragapult",
+    "Primarina",
+    "Pelipper",
+    "Hatterene",
+    "Mimikyu",
+    "Basculegion",
+    "Hydreigon",
+    "Scizor",
+    "Archaludon",
+    "Corviknight",
+    "Glimmora",
+    "Sableye",
+    "Volcarona",
+    "Meowscarada"
+  ],
+  "tierOrder": [
+    "S+",
+    "S",
+    "S-",
+    "A+",
+    "A",
+    "A-",
+    "B+",
+    "B",
+    "B-",
+    "C+",
+    "C",
+    "C-",
+    "D"
+  ]
+}
