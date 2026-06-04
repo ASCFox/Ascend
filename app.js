@@ -366,3 +366,42 @@ if (typeof renderBundleMatchup !== "undefined") window.renderBundleMatchup = ren
     if(e.key === "Escape") closeMenu();
   });
 })();
+
+
+
+// ASCEND Mobile Stability Patch v1
+(function(){
+  const body = document.body;
+
+  // Observe modal visibility to lock body scroll safely on mobile.
+  const modal = document.getElementById("buildModal");
+  if(modal){
+    const syncModalState = () => {
+      body.classList.toggle("modal-open", modal.classList.contains("show"));
+    };
+    new MutationObserver(syncModalState).observe(modal, {attributes:true, attributeFilter:["class"]});
+    syncModalState();
+
+    modal.addEventListener("click", function(e){
+      if(e.target === modal){
+        modal.classList.remove("show");
+        body.classList.remove("modal-open");
+      }
+    });
+  }
+
+  // Prevent iOS double-tap zoom on key UI buttons.
+  document.addEventListener("touchend", function(e){
+    const actionable = e.target.closest("button,.navbtn,.poke-card,.member,.modal-nav,.close");
+    if(actionable) actionable.blur && actionable.blur();
+  }, {passive:true});
+
+  // Extra safe close behavior.
+  const closeModalBtn = document.getElementById("closeModal");
+  if(closeModalBtn && modal){
+    closeModalBtn.addEventListener("click", function(){
+      modal.classList.remove("show");
+      body.classList.remove("modal-open");
+    });
+  }
+})();
