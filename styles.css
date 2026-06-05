@@ -1399,3 +1399,181 @@ canvas{
     pointer-events:auto !important;
   }
 }
+
+
+
+/* =========================================================
+   ASCEND MOBILE FINAL FIX v3
+   fixes: white bottom, opaque/unselectable menu, iOS safe scrolling
+   ========================================================= */
+
+html{
+  background:#02030a !important;
+  min-height:100%;
+}
+
+body{
+  background-color:#02030a !important;
+  min-height:100%;
+  overscroll-behavior-y:none;
+}
+
+@media (max-width: 900px){
+  html, body{
+    width:100% !important;
+    max-width:100% !important;
+    min-height:100dvh !important;
+    background:#02030a !important;
+    overflow-x:hidden !important;
+  }
+
+  body{
+    position:relative !important;
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+
+  .app{
+    display:block !important;
+    min-height:100dvh !important;
+    background:
+      radial-gradient(circle at 50% 0%,rgba(255,215,90,.08),transparent 28%),
+      radial-gradient(circle at 80% 20%,rgba(178,71,255,.06),transparent 28%),
+      linear-gradient(180deg,#050611 0%,#02030a 100%) !important;
+  }
+
+  .main{
+    min-height:100dvh !important;
+    background:transparent !important;
+    padding-bottom:calc(120px + env(safe-area-inset-bottom)) !important;
+  }
+
+  .section{
+    min-height:auto !important;
+    padding-bottom:40px !important;
+  }
+
+  /* Elimina fondo blanco del rebote/área inferior en iOS */
+  body::after{
+    content:"";
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    height:140px;
+    background:#02030a;
+    z-index:-1;
+    pointer-events:none;
+  }
+
+  /* MENU: sólido, encima de todo y seleccionable */
+  .mobile-overlay{
+    position:fixed !important;
+    inset:0 !important;
+    z-index:8990 !important;
+    background:rgba(0,0,0,.34) !important;
+    opacity:0 !important;
+    pointer-events:none !important;
+    backdrop-filter:none !important;
+    -webkit-backdrop-filter:none !important;
+    transition:opacity .18s ease !important;
+  }
+
+  body.mobile-menu-open .mobile-overlay{
+    opacity:1 !important;
+    pointer-events:auto !important;
+  }
+
+  .sidebar{
+    position:fixed !important;
+    z-index:9000 !important;
+    top:0 !important;
+    left:0 !important;
+    bottom:auto !important;
+    height:100dvh !important;
+    width:min(86vw,320px) !important;
+    transform:translateX(-108%) !important;
+    visibility:hidden !important;
+    opacity:1 !important;
+    pointer-events:none !important;
+    background:#060815 !important;
+    border-right:1px solid rgba(255,215,90,.22) !important;
+    box-shadow:16px 0 32px rgba(0,0,0,.72) !important;
+    backdrop-filter:none !important;
+    -webkit-backdrop-filter:none !important;
+    filter:none !important;
+    -webkit-filter:none !important;
+    overflow-y:auto !important;
+    overflow-x:hidden !important;
+    -webkit-overflow-scrolling:touch !important;
+    transition:transform .24s ease, visibility 0s linear .24s !important;
+  }
+
+  body.mobile-menu-open .sidebar{
+    transform:translateX(0) !important;
+    visibility:visible !important;
+    pointer-events:auto !important;
+    transition:transform .24s ease, visibility 0s !important;
+  }
+
+  .sidebar,
+  .sidebar *{
+    opacity:1 !important;
+    filter:none !important;
+    -webkit-filter:none !important;
+  }
+
+  .sidebar .navbtn{
+    pointer-events:auto !important;
+    touch-action:manipulation !important;
+    position:relative !important;
+    z-index:9010 !important;
+    color:#fff !important;
+    background:linear-gradient(180deg,rgba(24,31,58,.96),rgba(7,9,18,.98)) !important;
+  }
+
+  .sidebar .navbtn.active{
+    background:linear-gradient(180deg,rgba(255,193,40,.98),rgba(180,68,0,.96)) !important;
+  }
+
+  .mobile-menu-close{
+    z-index:9020 !important;
+    pointer-events:auto !important;
+    touch-action:manipulation !important;
+  }
+
+  .mobile-menu-toggle{
+    z-index:9030 !important;
+    pointer-events:auto !important;
+    touch-action:manipulation !important;
+  }
+
+  body.mobile-menu-open .main{
+    pointer-events:none !important;
+  }
+
+  body.mobile-menu-open .top-credits{
+    pointer-events:none !important;
+  }
+
+  body.mobile-menu-open{
+    overflow:hidden !important;
+    height:100dvh !important;
+  }
+
+  canvas{
+    background:transparent !important;
+  }
+}
+
+@supports not (height: 100dvh){
+  @media (max-width: 900px){
+    html, body, .app, .main, .sidebar{
+      min-height:100vh !important;
+      height:auto;
+    }
+    body.mobile-menu-open,
+    .sidebar{
+      height:100vh !important;
+    }
+  }
+}
