@@ -1577,3 +1577,39 @@ body{
     }
   }
 }
+
+
+
+/* Hero buttons extension */
+.hero-btn.team{
+  background:linear-gradient(180deg,rgba(53,216,255,.70),rgba(11,67,115,.78));
+  border-color:rgba(53,216,255,.34);
+  box-shadow:0 0 12px rgba(53,216,255,.10);
+}
+.hero-btn.matchup{
+  background:linear-gradient(180deg,rgba(210,65,170,.70),rgba(105,18,78,.78));
+  border-color:rgba(255,95,210,.30);
+  box-shadow:0 0 12px rgba(255,95,210,.10);
+}
+.hero-btn.team:hover{
+  box-shadow:0 0 18px rgba(53,216,255,.18);
+}
+.hero-btn.matchup:hover{
+  box-shadow:0 0 18px rgba(255,95,210,.16);
+}
+@media (max-width: 700px){
+  .hero-actions{
+    display:grid !important;
+    grid-template-columns:1fr 1fr;
+    width:100%;
+    max-width:420px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .hero-btn{
+    width:100%;
+    min-height:46px;
+    padding:11px 12px;
+    font-size:12px;
+  }
+}

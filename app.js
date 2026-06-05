@@ -555,3 +555,53 @@ if (typeof renderBundleMatchup !== "undefined") window.renderBundleMatchup = ren
     if(!isMobile()) closeMenu();
   });
 })();
+
+
+
+// ASCEND Team Member Build Fix
+(function(){
+  function normalizeMemberCards(){
+    if(typeof byName === "undefined") return;
+    document.querySelectorAll(".team-members .member").forEach(member=>{
+      if(member.dataset.pokemon) return;
+
+      const label = member.querySelector("span")?.textContent?.trim();
+      if(!label) return;
+
+      let key = label
+        .replace(" Mega","")
+        .replace("Charizard X","Charizard Y")
+        .replace("Floette","Floette Flor Eterna")
+        .trim();
+
+      if(byName[label]) key = label;
+      if(byName[key]) member.dataset.pokemon = key;
+    });
+  }
+
+  document.addEventListener("click", function(e){
+    const member = e.target.closest(".team-members .member");
+    if(!member) return;
+
+    normalizeMemberCards();
+
+    const name = member.dataset.pokemon || member.querySelector("span")?.textContent?.trim();
+    const p = (typeof byName !== "undefined") ? (byName[name] || byName[name?.replace(" Mega","")] || byName["Charizard Y"]) : null;
+
+    if(p && typeof openBuild === "function"){
+      e.preventDefault();
+      e.stopPropagation();
+      openBuild(p);
+    }
+  }, true);
+
+  // Re-normaliza después de cambiar de equipo o render dinámico
+  document.addEventListener("click", function(e){
+    if(e.target.closest("#teamList .select-btn, .subteam-tab")){
+      setTimeout(normalizeMemberCards, 60);
+    }
+  });
+
+  setTimeout(normalizeMemberCards, 400);
+  setTimeout(normalizeMemberCards, 1200);
+})();
