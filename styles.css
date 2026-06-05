@@ -1334,3 +1334,68 @@ canvas{
     }
   }
 }
+
+
+
+/* =========================================================
+   ASCEND MOBILE MENU FIX v2
+   ========================================================= */
+
+@media (max-width: 900px){
+  .mobile-overlay{
+    background:rgba(0,0,0,.28) !important;
+    opacity:0 !important;
+    backdrop-filter:none !important;
+    -webkit-backdrop-filter:none !important;
+  }
+
+  body.mobile-menu-open .mobile-overlay{
+    opacity:1 !important;
+    pointer-events:auto !important;
+  }
+
+  .sidebar{
+    opacity:1 !important;
+    filter:none !important;
+    -webkit-filter:none !important;
+    background:#060815 !important;
+    box-shadow:10px 0 24px rgba(0,0,0,.55) !important;
+  }
+
+  body.mobile-menu-open .sidebar{
+    opacity:1 !important;
+    filter:none !important;
+    -webkit-filter:none !important;
+  }
+
+  .sidebar *{
+    filter:none !important;
+    -webkit-filter:none !important;
+  }
+
+  .sidebar .navbtn{
+    position:relative;
+    z-index:170;
+    pointer-events:auto !important;
+    opacity:1 !important;
+    color:#fff !important;
+  }
+
+  .sidebar .navbtn.active{
+    background:linear-gradient(180deg,rgba(255,193,40,.95),rgba(180,68,0,.95)) !important;
+    color:#fff !important;
+  }
+
+  body.mobile-menu-open .main{
+    pointer-events:auto !important;
+  }
+
+  body.mobile-menu-open .mobile-menu-toggle{
+    z-index:180;
+  }
+
+  .mobile-menu-close{
+    z-index:180;
+    pointer-events:auto !important;
+  }
+}

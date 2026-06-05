@@ -405,3 +405,39 @@ if (typeof renderBundleMatchup !== "undefined") window.renderBundleMatchup = ren
     });
   }
 })();
+
+
+
+// ASCEND Mobile Menu Fix v2
+(function(){
+  function closeMobileMenu(){
+    document.body.classList.remove("mobile-menu-open");
+  }
+
+  function switchSection(target){
+    if(!target) return;
+    document.querySelectorAll(".navbtn").forEach(b=>b.classList.remove("active"));
+    document.querySelectorAll(`.navbtn[data-target="${target}"]`).forEach(b=>b.classList.add("active"));
+    document.querySelectorAll(".section").forEach(s=>s.classList.remove("active"));
+    const section=document.getElementById(target);
+    if(section) section.classList.add("active");
+    closeMobileMenu();
+    window.scrollTo({top:0, behavior:"smooth"});
+  }
+
+  document.addEventListener("click", function(e){
+    const nav=e.target.closest(".sidebar .navbtn");
+    if(!nav || window.innerWidth > 900) return;
+    e.preventDefault();
+    e.stopPropagation();
+    switchSection(nav.dataset.target);
+  }, true);
+
+  document.addEventListener("touchend", function(e){
+    const nav=e.target.closest(".sidebar .navbtn");
+    if(!nav || window.innerWidth > 900) return;
+    e.preventDefault();
+    e.stopPropagation();
+    switchSection(nav.dataset.target);
+  }, {capture:true, passive:false});
+})();
